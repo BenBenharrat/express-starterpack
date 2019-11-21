@@ -82,6 +82,10 @@ function onError(error) {
  */
 
 function onListening() {
+  console.log(process.env.PORT);
+  console.log(process.env.HOST);
+  console.log(process.env.DATABASE);
+  console.log(process.env.USER_NAME);
   const addr = server.address();
   const bind = typeof addr === 'string'
     ? 'pipe ' + addr
