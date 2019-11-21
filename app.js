@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('dotenv-extended').load();
 import createError from 'http-errors';
 import express from "express";
@@ -7,8 +8,19 @@ import logger from 'morgan';
 
 import indexRouter from'./routes/index';
 import usersRouter from'./routes/users';
+=======
+var createError = require('http-errors');
+import express from 'express';
+/* var express = require('express'); */
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
 
-const app = express();
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
+>>>>>>> parent of 730e5d2... Config dotenv variables
+
+var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
