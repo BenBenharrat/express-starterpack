@@ -1,5 +1,5 @@
 {
-  "name": "express-starterpack",
+  "name": "server",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,8 @@
     "dotenv-extended": "^2.5.0",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "pug": "^2.0.4"
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
